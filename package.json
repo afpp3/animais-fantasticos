@@ -1,5 +1,5 @@
 {
-  "name": "animais-eslint",
+  "name": "animais-fantasticos",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "dev": "webpack --mode development --watch",
     "build": "webpack --mode production"
   },
-  "author": "",
+  "author": "André Felippe",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.12.8",
@@ -23,7 +23,6 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
-    "lodash": "^4.17.20",
     "whatwg-fetch": "^3.5.0"
   }
 }
