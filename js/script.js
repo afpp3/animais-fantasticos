@@ -44,5 +44,5 @@ menuMobile.init();
 const openingHours = new OpeningHours('[data-semana]');
 openingHours.init();
 
-fetchAnimais('../../animaisapi.json', '.numeros-grid');
+fetchAnimais('./animaisapi.json', '.numeros-grid');
 fetchBitcoin('https://blockchain.info/ticker', '.btc-preco');
