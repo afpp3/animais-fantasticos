@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap|Playfair+Display+SC"
       rel="stylesheet"
     />
     <script>
@@ -34,7 +34,9 @@
           <li><a href="#numeros">Números</a></li>
           <li><a href="#contato">Contato</a></li>
           <li>
-            <a data-modal="open" href="login.html" target="blank">Login →</a>
+            <a data-modal="open" href="login.html" target="blank"
+              >Login <span class="arrow-black"></span
+            ></a>
           </li>
         </ul>
       </nav>
@@ -288,7 +290,7 @@
 
     <section class="modal-container" data-modal="container">
       <div class="modal">
-        <button data-modal="close" class="close">X</button>
+        <button data-modal="close" class="close"></button>
         <form action="">
           <label for="email">Email</label>
           <input type="email" name="email" id="email" for="email" />
